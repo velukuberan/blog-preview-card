@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
 
-html {
-    font-size: 16px;
-}
-
 :root {
     /* Colors */
     --primary-color: #F4D04E;
@@ -88,7 +84,7 @@ main {
     padding: var(--spacing-300); 
     background-color: var(--white);
     border-radius: var(--spacing-200);
-    box-shadow: var(--spacing-100) var(--spacing-100) var(--black);
+    box-shadow: 8px 8px var(--black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,9 +130,9 @@ main {
     border-radius: 50%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .card {
-        max-width: 384px;
+        max-width: 24rem;
     }
 }
 
